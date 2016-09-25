@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+
+nav {
+  background: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+}
+
+nav ul {
+  padding: 0;
+  float: right;
+  margin-top: 40px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration:none;
+  color:white;
+  margin-left: 10px;
+}
+
+h1,
+h2,
+h3,.btn{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #1bbc9b;
+  padding: 10px 10px 10px 10px;
+  border-radius: 3px;
+  text-align: center;
+
+}
+
+header {
+  background: url(../images/header-bg.jpg) center no-repeat;
+  padding-top: 160px;;
+  text-align: center;
+  color: white;
+  height: 600px;
+
+}
+
+.
+features {
+  text-align: center;
+}
+
+.features article {
+  width: 24%;
+  display: inline-block;
+}
+
+section {
+  padding: 40px 40px;
+  text-align: center
+}
+
+.clients {
+  background:tomato;
+}
+
+.mockup{
+  background:blue;
+  background-attachment: fixed;
+}
+
+.contact{
+  background:black;
+
+}
+
+footer{
+  text-align: center;
+}
+
+ul li{
+  display:inline;;
+}
+
+@media (max-width:768px)
+nav{
+  text-align=center;
+  padding 20px;
+}
+
+nav ul{float:none;}
+
+.features article{width:100%;display:block;}
+
+mockup img{100%;}
